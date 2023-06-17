@@ -1,0 +1,120 @@
+.navbar {
+  justify-content: flex-end;
+}
+
+.navbar-collapse {
+  justify-content: flex-end;
+}
+
+.navbar-nav .nav-link {
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+}
+
+.navbar {
+  background-color: #f8f9fa;
+}
+
+.navbar-brand {
+  color: #343a40;
+  font-weight: bold;
+}
+
+.nav-link {
+  color: #343a40;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: #007bff;
+}
+
+.nav-dropdown {
+  background-color: #f8f9fa;
+}
+
+.dropdown-menu {
+  border: none;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown-item {
+  color: #343a40;
+}
+
+.dropdown-item:hover,
+.dropdown-item:focus {
+  color: #007bff;
+  background-color: #f8f9fa;
+}
+
+.carousel-container {
+  margin-top: 30px;
+  padding: 60px;
+}
+
+.carousel-caption {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 20px;
+  color: #fff;
+}
+
+.carousel-caption h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.carousel-caption p {
+  font-size: 16px;
+  color:#79c2d0;
+}
+
+@media (min-width: 769px) {
+  img {
+    height: 620px;
+  }
+}
+
+@media (max-width: 768px) {
+  .nav {
+    padding: 10px;
+  }
+
+  .carousel-container {
+    margin-top: 60px;
+    padding: 20px;
+  }
+
+  .carousel-caption {
+    padding: 10px;
+  }
+
+  .carousel-caption h3 {
+    font-size: 20px;
+  }
+
+  .carousel-caption p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 576px) {
+  .carousel-container {
+    margin-top: 40px;
+    padding: 10px;
+  }
+
+  .carousel-caption {
+    padding: 10px;
+  }
+
+  .carousel-caption h3 {
+    font-size: 18px;
+  }
+
+  .carousel-caption p {
+    font-size: 12px;
+  }
+}

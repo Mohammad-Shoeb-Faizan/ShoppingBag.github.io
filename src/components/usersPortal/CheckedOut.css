@@ -1,0 +1,51 @@
+.checked-out {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(to bottom right, #ff00cc, #333399);
+  backdrop-filter: blur(10px);
+}
+
+.checked-out-container {
+  text-align: center;
+  color: #fff;
+}
+
+h2 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  animation: textAnimation 2s infinite;
+}
+
+p {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  color: #132743;
+}
+
+.button {
+  font-size: 1.2rem;
+  padding: 0.8rem 1.5rem;
+  background-color: #fff;
+  color: #333;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #f2f2f2;
+}
+
+@keyframes textAnimation {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
